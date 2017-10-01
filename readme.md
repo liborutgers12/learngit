@@ -1,11 +1,11 @@
 Git is a version control system. Git is a free software.
 This is a very simple tutorial of git and github.
-Summarized from https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+Summarized from [this link](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 
 ## Topic 1: Install git
 	Linux: If it's not installed on the linux distribution you're using, install by
 	$ sudo apt-get install git
-	Windows: Download git windows version: http://msysgit.github.io/ and install and use git bash
+	Windows: Download git windows version ([link](http://msysgit.github.io/)) and install and use git bash
 	
 	After installation, configure you name and email by
 	$ git config --global user.name "Your Name"
