@@ -21,6 +21,13 @@ Step 2: Create a local repository
 		[master (root-commit) cb926e7] wrote a readme file
 		1 file changed, 2 insertions(+)
 		create mode 100644 readme.txt
+Useful commands
+	$ git status
+	$ git diff filename
+	$ git log
+	$ git reset --hard HEAD^  // reset to the previous version; HEAD denotes the current version; ^,^^,^^ previous versions
+	$ git reflog
+	
 	
 	
 	
