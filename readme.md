@@ -2,7 +2,7 @@ Git is a version control system. Git is a free software.
 This is a very simple tutorial of git and github.
 Summarized from https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
-## Step 1: install git
+## Topic 1: Install git
 	Linux: If it's not installed on the linux distribution you're using, install by
 	$ sudo apt-get install git
 	Windows: Download git windows version: http://msysgit.github.io/ and install and use git bash
@@ -11,7 +11,7 @@ Summarized from https://www.liaoxuefeng.com/wiki/0013739516305929606dd1836124857
 	$ git config --global user.name "Your Name"
 	$ git config --global user.email "email@example.com"
 	
-## Step 2: Create a local repository
+## Topic 2: Create a local repository
 	$ mkdir learngit
 	$ cd learngit
 	$ git init  
@@ -25,7 +25,7 @@ Summarized from https://www.liaoxuefeng.com/wiki/0013739516305929606dd1836124857
 ## Useful commands
 	$ git status
 	$ git diff filename
-	$ git log [--graph]	// showing commit history
+	$ git log <--graph> <--pretty=oneline>	// showing commit history
 	$ git reset --hard commit_id //e.g. HEAD^  // reset to the previous version; HEAD denotes the current version; ^,^^,^^ previous versions
 	$ git reflog // showing history with commit_id
 	$ git checkout -- filename		
@@ -37,7 +37,7 @@ Summarized from https://www.liaoxuefeng.com/wiki/0013739516305929606dd1836124857
 		rm 'test.txt'
 	$ git commit -m "remove test.txt"
 
-## Step 3: Remote Repo, on github.com
+## Topic 3: Remote Repo, on github.com
 	a. Register an account if not yet.
 	b. create SSH Key for the communicatoin between local and remote
 		$ ssh-keygen -t rsa -C "youremail@example.com"
