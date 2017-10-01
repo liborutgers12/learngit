@@ -2,7 +2,7 @@ Git is a version control system. Git is a free software.
 This is a very simple tutorial of git and github.
 Summarized from https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
-# Step 1: install git
+## Step 1: install git
 	Linux: If it's not installed on the linux distribution you're using, install by
 	$ sudo apt-get install git
 	Windows: Download git windows version: http://msysgit.github.io/ and install and use git bash
@@ -11,7 +11,7 @@ Summarized from https://www.liaoxuefeng.com/wiki/0013739516305929606dd1836124857
 	$ git config --global user.name "Your Name"
 	$ git config --global user.email "email@example.com"
 	
-# Step 2: Create a local repository
+## Step 2: Create a local repository
 	$ mkdir learngit
 	$ cd learngit
 	$ git init  
@@ -22,7 +22,7 @@ Summarized from https://www.liaoxuefeng.com/wiki/0013739516305929606dd1836124857
 		[master (root-commit) cb926e7] wrote a readme file
 		1 file changed, 2 insertions(+)
 		create mode 100644 readme.txt
-# Useful commands
+## Useful commands
 	$ git status
 	$ git diff filename
 	$ git log [--graph]	// showing commit history
@@ -37,7 +37,7 @@ Summarized from https://www.liaoxuefeng.com/wiki/0013739516305929606dd1836124857
 		rm 'test.txt'
 	$ git commit -m "remove test.txt"
 
-# Step 3: Remote Repo, on github.com
+## Step 3: Remote Repo, on github.com
 	a. Register an account if not yet.
 	b. create SSH Key for the communicatoin between local and remote
 		$ ssh-keygen -t rsa -C "youremail@example.com"
@@ -59,7 +59,7 @@ Summarized from https://www.liaoxuefeng.com/wiki/0013739516305929606dd1836124857
 	
 	$ git remote -v //remote repo detailed info
 		
-# Branches: master and new branches
+## Branches: master and new branches
 	branches are basically pointers
 	$ git branch dev	//create new branch "dev"
 	$ git checkout dev	//switch to "dev" from "master"
